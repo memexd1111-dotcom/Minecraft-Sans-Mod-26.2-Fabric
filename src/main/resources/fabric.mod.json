@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sansmod",
+  "version": "${version}",
+  "name": "Sans Abilities",
+  "description": "Un amuleto que da habilidades inspiradas en Sans: esquive, huesos, blasters, telequinesis y más. Cliente y servidor.",
+  "authors": ["Benja"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.benja.sansmod.SansMod"],
+    "client": ["com.benja.sansmod.client.SansClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

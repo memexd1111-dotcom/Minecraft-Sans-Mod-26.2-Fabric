@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "sansmod:item/blaster_skull" },
+  "display": {
+    "head": { "rotation": [0, 180, 0], "translation": [0, 14, 0], "scale": [2.6, 2.6, 2.6] }
+  }
+}
